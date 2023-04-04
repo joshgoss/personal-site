@@ -23,9 +23,9 @@ export default function Home() {
           <div className="flex flex-col items-center pb-6 pt-4">
             <div>
               <span className="text-3xl">Joshua</span>
-              <span className="text-3xl text-blue-600 ml-1">Goss</span>
+              <span className="text-3xl text-gray-500 ml-1">Goss</span>
             </div>
-            <div className="text-sm text-blue-300 mt-1">
+            <div className="text-sm text-gray-400 mt-1">
               Full Stack <span className="text-gray-300">/</span> Developer{" "}
               <span className="text-gray-300">/</span> Learner{" "}
             </div>
