@@ -23,9 +23,12 @@ export default function Home() {
           <div className="flex flex-col items-center pb-6 pt-4">
             <div>
               <span className="text-3xl">Joshua</span>
-              <span className="text-3xl text-blue-500 ml-1">Goss</span>
+              <span className="text-3xl text-blue-600 ml-1">Goss</span>
             </div>
-            <div className="text text-blue-400 mt-1">Full Stack Developer</div>
+            <div className="text-sm text-blue-300 mt-1">
+              Full Stack <span className="text-gray-300">/</span> Developer{" "}
+              <span className="text-gray-300">/</span> Learner{" "}
+            </div>
           </div>
         </div>
       </header>
@@ -109,7 +112,7 @@ export default function Home() {
             <Project
               title="Feed Mailer"
               github="https://github.com/joshgoss/feed-mailer"
-              description="A commandline application to send rss feeds emailed to you."
+              description="A commandline application to email rss feeds"
               imageUrl="/feedmailer.png"
               techStack={["Python", "CLI", "SQLite"]}
             />
