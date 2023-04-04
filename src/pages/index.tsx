@@ -38,7 +38,7 @@ export default function Home() {
           <Paragraph className="mb-6">
             I am a full stack developer with a passion for developing
             applications in Python and Javascript. If you are an employer
-            developer, checkout my{" "}
+            developer looking to hire a full stack developer, checkout my{" "}
             <Link href="/resume.pdf" title="My Resume">
               resume
             </Link>

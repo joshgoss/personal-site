@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { FaGithub, FaGlobe, FaList } from "react-icons/fa";
+import classNames from "classnames";
 
 type Props = {
   description: string;
@@ -23,11 +24,11 @@ const Project = ({
   return (
     <div className="border border-gray-300 w-64 relative pb-7 bg-gray-100">
       <Image
-        className="border-b border-gray-300 h-64 w-64"
+        className="border-b border-gray-300 h-48 w-64"
         src={imageUrl}
         alt={title}
         width={288}
-        height={288}
+        height={192}
       />
       <h4 className="font-bold mt-2 mb-1 mx-2 text-sm ">
         <a href={url || "#"} title={title}>
@@ -38,7 +39,7 @@ const Project = ({
 
       <div className="block mx-2 mb-1 absolute bottom-0 left-0">
         <a
-          className="inline-block mr-2 text-lg"
+          className="inline-block mr-1 text-lg p-1"
           href={github}
           title="View source code"
         >
@@ -46,7 +47,7 @@ const Project = ({
         </a>
         {!!url && (
           <a
-            className="text-lg inline-block mr-2"
+            className="text-lg inline-block mr-1 p-1"
             href={url}
             title={`Try out ${title} app`}
           >
@@ -56,7 +57,10 @@ const Project = ({
 
         {!!techStack && (
           <a
-            className="text-lg inline-block mr-2"
+            className={classNames(
+              "text-lg inline-block mr-2 p-1",
+              showTechStack && "bg-gray-300"
+            )}
             href="#"
             onClick={(e) => {
               e.preventDefault();
