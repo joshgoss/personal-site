@@ -22,9 +22,9 @@ const Project = ({
 }: Props) => {
   const [showTechStack, setShowTechStack] = useState(false);
   return (
-    <div className="border border-gray-300 w-64 relative pb-7 bg-gray-100">
+    <div className="border border-gray-300 w-full md:w-64 relative pb-7 bg-gray-100">
       <Image
-        className="border-b border-gray-300 h-48 w-64"
+        className="border-b border-gray-300 h-48 w-full md:w-64"
         src={imageUrl}
         alt={title}
         width={288}

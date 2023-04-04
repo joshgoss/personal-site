@@ -5,7 +5,7 @@ type Props = {
 };
 
 const Hr = ({ className }: Props) => (
-  <hr className={classNames("my-4", className)} />
+  <hr className={classNames("my-2", className)} />
 );
 
 export default Hr;

@@ -6,7 +6,7 @@ type Props = {
 };
 
 const Header = ({ className, children }: Props) => (
-  <h3 className={classNames("text-xl mx-3 mt-3 mb-3", className)}>
+  <h3 className={classNames("text-xl mx-3 mt-2 mb-3", className)}>
     {children}
   </h3>
 );

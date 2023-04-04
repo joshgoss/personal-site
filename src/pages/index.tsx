@@ -51,8 +51,8 @@ export default function Home() {
           <Hr />
 
           {/* Contact */}
-          <Header className="mt-0">Contact Me</Header>
-          <ul className="mx-4 mb-2 text-xl text-gray-800">
+          <Header>Contact Me</Header>
+          <ul className="mx-4  text-xl text-gray-800">
             <li className="inline-block ml-2">
               <a href="mailto:josh@joshgoss.com">
                 <FaEnvelope />
@@ -69,7 +69,7 @@ export default function Home() {
 
         {/* Main */}
         <main className="grow md:border-r mb-5">
-          <Header className="mt-0 md:mt-3">My Projects</Header>
+          <Header>My Projects</Header>
 
           <div className="flex flex-row flex-wrap gap-3 mx-4">
             <Project
