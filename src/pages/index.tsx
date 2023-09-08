@@ -80,7 +80,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex text-gray-200 flex-initial lg:w-80 w-full ml-3">
-            <i className="fa fa-brands fa-node text-[40px]  mr-4" />
+            <i className="fa fa-brands fa-node-js text-[57px]  mr-4" />
             <div>
               <h3 className="font-bold  mb-1">Node.JS</h3>
               <p className="text-gray-400 text-sm">
