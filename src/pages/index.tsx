@@ -28,7 +28,7 @@ export default function Home() {
         <h1 className="text-4xl text-white ml-6 pt-3 mb-4">
           <span className="block">Hi,</span>
           <span className="text-red-400 block">I&apos;m Josh,</span>
-          <span className="block">Full Stack Develper,</span>
+          <span className="block">Full Stack Developer,</span>
         </h1>
         <p className="text-gray-300 ml-6">
           I&apos;m a Full Stack Developer with 4+ years of experience. I&apos;m
@@ -95,9 +95,9 @@ export default function Home() {
               <h3 className="font-bold  mb-1">React</h3>
               <p className="text-gray-400 text-sm">
                 I have years of experience of creating captivating users
-                experiences in React. I have 4+ years experience in react
+                experiences in React. I have 4+ years experience in React
                 include implementing applications from mockups and creating
-                complex
+                complex custom components.
               </p>
             </div>
           </div>
@@ -108,7 +108,7 @@ export default function Home() {
               <p className="text-gray-400 text-sm">
                 Experience with hosting front-end and backend on AWS and Azure
                 and integrating their servies. This includes AWS EC2, AWS S3,
-                AWS SQS, Azur Blob Storage and Azure App Services,
+                AWS SQS, Azur Blob Storage and Azure App Services.
               </p>
             </div>
           </div>
