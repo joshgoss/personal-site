@@ -31,7 +31,7 @@ export default function Home() {
           <span className="block">Full Stack Develper,</span>
         </h1>
         <p className="text-gray-300 ml-6">
-          I'm a Full Stack Developer with 4+ years of experience. I'm
+          I&apos;m a Full Stack Developer with 4+ years of experience. I&apos;m
           well-versed in a range of technologies, including Python and Node.js
           for backend development, React for creating engaging frontends, and
           HTML/CSS for crafting polished interfaces. My passion lies in
@@ -61,7 +61,7 @@ export default function Home() {
             <div>
               <h3 className="font-bold  mb-1 w-32">Full Stack</h3>
               <p className="text-gray-400 text-sm">
-                With over 4 years in Full Stack Development, I'm skilled in
+                With over 4 years in Full Stack Development, I&apos;m skilled in
                 Python, Node.js, React, HTML, and CSS. From backend to frontend,
                 I create seamless web experiences.
               </p>
@@ -72,10 +72,10 @@ export default function Home() {
             <div>
               <h3 className="font-bold  mb-1">Python</h3>
               <p className="text-gray-400 text-sm">
-                I've leveraged Python's capabilities to build efficient backends
-                using Flask and FastAPI. This include complex RESTful backend
-                APIs using SQLAlchemy for database interactions and custom
-                permissions for endpoints.
+                I&apos;ve leveraged Python&apos;s capabilities to build
+                efficient backends using Flask and FastAPI. This include complex
+                RESTful backend APIs using SQLAlchemy for database interactions
+                and custom permissions for endpoints.
               </p>
             </div>
           </div>
