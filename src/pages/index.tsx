@@ -95,7 +95,7 @@ export default function Home() {
               <h3 className="font-bold  mb-1">React</h3>
               <p className="text-gray-400 text-sm">
                 I bring a solid four years of expertise in React development to
-                the table, during which I've honed my skills in crafting
+                the table, during which I&apos;ve honed my skills in crafting
                 exceptional user interfaces and optimizing overall user
                 experiences. My passion for web development, coupled with my
                 in-depth knowledge of React, allows me to create dynamic and
