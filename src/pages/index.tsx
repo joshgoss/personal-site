@@ -94,10 +94,12 @@ export default function Home() {
             <div>
               <h3 className="font-bold  mb-1">React</h3>
               <p className="text-gray-400 text-sm">
-                I have years of experience of creating captivating users
-                experiences in React. I have 4+ years experience in React
-                include implementing applications from mockups and creating
-                complex custom components.
+                I bring a solid four years of expertise in React development to
+                the table, during which I've honed my skills in crafting
+                exceptional user interfaces and optimizing overall user
+                experiences. My passion for web development, coupled with my
+                in-depth knowledge of React, allows me to create dynamic and
+                engaging applications that meet both user and business needs.
               </p>
             </div>
           </div>
