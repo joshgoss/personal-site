@@ -129,7 +129,7 @@ export default function Home() {
             imageUrl="/habit-tracker.png"
             techStack={[
               "OAuth (Google & Github)",
-              "Fastify",
+              "Express",
               "Mongodb",
               "Node.js",
               "Nosql",
