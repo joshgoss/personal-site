@@ -117,6 +117,39 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="bg-gray-800 pb-8 mb-8">
+        <div className="flex flex-row flex-wrap gap-3 mx-4">
+          <h2 className="text-lg text-gray-100 ml-6 pt-2 mb pb-3 block w-full">
+            Credentials
+          </h2>
+          <a
+            href="https://www.credly.com/badges/6e78150f-4dec-434c-a50e-7da928c291f6/public_url"
+            title="AWS Developer Associate Certification"
+            target="_blank"
+          >
+            <Image
+              src="/aws-cert.png"
+              alt="AWS Developer Associate Certification "
+              width={204}
+              height={204}
+            />
+          </a>
+
+          <a
+            href="https://www.credly.com/badges/f303b3ee-4914-4dc1-9730-13b02cd2ce57/public_url"
+            title="Python Essentials"
+            target="_blank"
+          >
+            <Image
+              src="/python-essentials.png"
+              alt="Python Esstentials"
+              width={204}
+              height={204}
+            />
+          </a>
+        </div>
+      </section>
+
       <section className="bg-gray-100 pb-8">
         <h2 className="text-lg ml-6 pt-2 mb pb-3">Projects</h2>
 
