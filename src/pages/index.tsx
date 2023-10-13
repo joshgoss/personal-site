@@ -147,6 +147,19 @@ export default function Home() {
               height={204}
             />
           </a>
+
+          <a
+            href="https://www.credly.com/badges/59b99b90-1210-4824-922c-e075cf13c6df/public_url"
+            title="Python for Data Science and AI"
+            target="_blank"
+          >
+            <Image
+              src="/python-data-ai.png"
+              alt="Python for Data Science and AI"
+              width={204}
+              height={204}
+            />
+          </a>
         </div>
       </section>
 
