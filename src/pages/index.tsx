@@ -187,7 +187,7 @@ export default function Home() {
 
           <Project
             title="Todo"
-            github="https://github.com/joshgoss/todo-client"
+            github="https://github.com/joshgoss/todo"
             url={"https://todo.joshgoss.com"}
             description="A simple todo application"
             imageUrl="/todo.png"
